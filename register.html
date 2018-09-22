@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body style="background-color: #C4C4C4;font-family: Lucida Console" text="#040404">
+	<a href="index.html" style="text-decoration: none;"><h1 style="text-align: center;font-family: Old English Text MT;color: #0C242D;font-size: 300%">Zero To Mastery</h1></a>
+ 	<hr><br>
+	<div>
+		<form action="/action_page.php" target="_blank" method="GET" align="center">
+			<fieldset>
+				<legend>Personal Info</legend>
+					Username: <br>
+					<input type="text" name="username" autofocus required><br>
+					Email:<br>
+					<input type="Email" name="email" required><br>
+					Password:<br>
+					<input type="Password" name="password" required><br><br>
+					Birthday: <input type="date"><br><br>
+					Gender: 
+					<input type="radio" name="gender" value="male">Male
+					<input type="radio" name="gender" value="female">Female<br>
+						
+			</fieldset><br>
+			Courses to take:
+			<select name="package">
+				<option>Full Course</option>
+				<option>Package 1</option>
+				<option>Package 2</option>
+			</select><br><br>
+			Phone Model:<br>
+			<input list="phonemodels" name="phonemodel">
+				<datalist id="phonemodels">
+					<option value="Samsung">
+					<option value="Apple">
+					<option value="Lenovo">
+					<option value="Oppo">	
+				</datalist><br>
+			Comments:<br>
+			<textarea name="content" dirname="content.dir" rows="4" cols="50">type your comments here...</textarea><br><br>
+			<fieldset>
+				<legend>Payment Method</legend>
+					<input type="radio" name="payment" value="visa">
+						<img src="http://www.edigitalagency.com.au/wp-content/uploads/new-visa-logo-high-quality-png-latest.png" style="background-color: inherit;" width="80" height="30">
+					<input type="radio" name="payment" value="mastercard">
+						<img src="http://pngimg.com/uploads/mastercard/mastercard_PNG16.png" style="background-color: inherit;" width="60" height="30">
+					<input type="radio" name="payment" value="paypal">
+						<img src="https://pngimg.com/uploads/paypal/paypal_PNG23.png" style="background-color: inherit;" width="80" height="30">
+			</fieldset><br><br>
+			<input type="submit" value="Sign Up">
+		</form>
+	<div>
+</body>
+</html>
